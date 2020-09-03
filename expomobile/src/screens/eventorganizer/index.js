@@ -1,0 +1,17 @@
+export { default as HomeEO } from './Home';
+export { default as FormRegisterEO } from './FormRegister';
+export { default as TransactionEO } from './transactions/Transaction';
+export { default as ProfileEO } from './profile/Profile';
+export { default as EditProfileEO } from './profile/EditProfile';
+export { default as EventEO } from './events/Events';
+export { default as EventsList } from './events/EventsList';
+export { default as AddEventEO } from './event/AddEvent';
+export { default as MerchantEO } from './merchant/Merchants';
+export { default as WalletEO } from './wallet/Wallet';
+export { default as Scanning } from './QRScan/Scanning';
+export { default as Generator } from './QRScan/Generator';
+export { default as EventTier } from './event/EventTier';
+export { default as TicketList } from './events/TicketList';
+export { default as TopUpCreditEO } from './wallet/TopUpCredit';
+export { default as TopUpDetailEO } from './wallet/TopUpDetail';
+export { default as EventPaymentEO } from './event/EventPayment';

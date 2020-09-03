@@ -1,0 +1,108 @@
+user: 
+- username
+- password
+- email
+- fullname
+- status
+
+user_credits:
+- id_user
+- id_credit
+
+credits:
+- id
+- amount
+
+user_role :
+- id_user
+- id_role
+
+role: 
+- id
+- name
+
+user_audience:
+- id_user
+- id_audience
+
+audience :
+- id
+- age
+- gender
+
+User_EO :
+- id_user
+- id_EO
+
+user_merchant:
+- id_user
+- id_merchant_profile
+
+EventOrganizer : 
+- id
+- status 
+- documents (SIUP, TDUP, NPWP perusahaan, surat izin teknis)
+- name
+- adress
+- city
+- email
+- description
+- npwp_number
+- siup_number
+
+merchant :
+- id
+- phone
+- name
+- city
+- address
+- email
+- description
+- status
+- IDcard_type
+- IDcard_number
+- NPWP_number
+- documents (KTP/Pasport, NPWP pemilik usaha)
+
+events :
+- id
+- name
+- location
+- description
+- date (start & end)
+- time
+- capacity
+- documents (proposal) 
+- audience_tier
+- event_tier
+- event_status
+
+events_pricing :
+- id_event
+- id_pricing
+
+pricing :
+- id
+- tier
+- stock
+- price
+
+transaction :
+- id
+- id_price
+- quantity
+- grand
+
+tickets:
+- id
+- id trans
+- code
+
+event_category :
+- id_event
+- id_category
+
+category :
+- id
+- name
+

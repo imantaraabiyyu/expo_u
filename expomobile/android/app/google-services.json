@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "120496749138",
+    "firebase_url": "https://expo-u.firebaseio.com",
+    "project_id": "expo-u",
+    "storage_bucket": "expo-u.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120496749138:android:a2c559a288c92c6c61bd8b",
+        "android_client_info": {
+          "package_name": "com.expo_u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120496749138-bse6dg7qbo5r0sb2agooo2onkp28sbln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expo_u",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "120496749138-0iip2rrsd8ivsu7fo7aiu4c4ls8q0bmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expo_u",
+            "certificate_hash": "4855ee1b4614810769d4c34b603b53512b0f8335"
+          }
+        },
+        {
+          "client_id": "120496749138-qlb34fkgoka1kbb44kp66nam0lq1ntce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA33mSiozH1pqg95ykHXjpO-dz2PKe3RKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120496749138-qlb34fkgoka1kbb44kp66nam0lq1ntce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

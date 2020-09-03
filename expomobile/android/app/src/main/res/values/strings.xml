@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Expo U</string>
+    <string name="facebook_app_id">1350525755130537</string>
+    <string name="fb_login_protocol_scheme">fb1350525755130537</string>
+</resources>

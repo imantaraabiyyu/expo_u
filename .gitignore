@@ -1,0 +1,126 @@
+#expoweb
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+expoweb/node_modules
+expoweb/.pnp
+expoweb/.pnp.js
+
+# testing
+expoweb/coverage
+
+# production
+expoweb/build
+
+# misc
+expoweb/.DS_Store
+expoweb/.env.local
+expoweb/.env.development.local
+expoweb/.env.test.local
+expoweb/.env.production.local
+
+expoweb/npm-debug.log*
+expoweb/yarn-debug.log*
+expoweb/yarn-error.log*
+
+
+#expomobile/
+# OSX
+#
+expomobile/.DS_Store
+
+# Xcode
+#
+expomobile/build/
+expomobile/*.pbxuser
+expomobile/!default.pbxuser
+expomobile/*.mode1v3
+expomobile/!default.mode1v3
+expomobile/*.mode2v3
+expomobile/!default.mode2v3
+expomobile/*.perspectivev3
+expomobile/!default.perspectivev3
+expomobile/xcuserdata
+expomobile/*.xccheckout
+expomobile/*.moved-aside
+expomobile/DerivedData
+expomobile/*.hmap
+expomobile/*.ipa
+expomobile/*.xcuserstate
+
+# Android/IntelliJ
+#
+expomobile/build/
+expomobile/android/app/build
+expomobile/.idea
+expomobile/.gradle
+expomobile/local.properties
+expomobile/*.iml
+
+# node.js
+#
+expomobile/node_modules/
+expomobile/npm-debug.log
+expomobile/yarn-error.log
+
+# BUCK
+expomobile/buck-out/
+expomobile/\.buckd/
+expomobile/*.keystore
+expomobile/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+expomobile/*/fastlane/report.xml
+expomobile/*/fastlane/Preview.html
+expomobile/*/fastlane/screenshots
+
+# Bundle artifact
+expomobile/*.jsbundle
+
+# CocoaPods
+expomobile/ios/Pods/
+
+### VS Code ###
+expomobile/.vscode/
+expomobile/src.rar
+
+#expobackend
+expobackend/HELP.md
+expobackend/target/
+expobackend/!.mvn/wrapper/maven-wrapper.jar
+expobackend/!**/src/main/**
+expobackend/!**/src/test/**
+
+### STS ###
+expobackend/.apt_generated
+expobackend/.classpath
+expobackend/.factorypath
+expobackend/.project
+expobackend/.settings
+expobackend/.springBeans
+expobackend/.sts4-cache
+
+### IntelliJ IDEA ###
+expobackend/.idea
+expobackend/*.iws
+expobackend/*.iml
+expobackend/*.ipr
+
+### NetBeans ###
+expobackend/nbproject/private/
+expobackend/nbbuild/
+expobackend/dist/
+expobackend/nbdist/
+expobackend/.nb-gradle/
+expobackendbuild/
+
+### VS Code ###
+expobackend/.vscode/
+expobackend/assets/
+expobackend/src.rar
